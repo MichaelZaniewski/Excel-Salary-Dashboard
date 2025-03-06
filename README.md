@@ -34,17 +34,20 @@ Background Table
 
 
 ### Charts and Graphs
-**Bar Charts**
-![Image](https://github.com/user-attachments/assets/79b1de11-1a05-4360-8de5-92d30304682b) 
+**Bar Charts** (INSERT TWO BAR CHARTS)
+![Image](https://github.com/user-attachments/assets/79b1de11-1a05-4360-8de5-92d30304682b)
 - Chart Choice: Horizontal bar chart with bolded emphasis on the selected role for improved readability. 
 - Data Organization: Sorted job titles by decending salary.  
 - Insights Gained: Senior and Engineer roles are among the higher-paying jobs. 
 
+**Map Chart**
+- Chart Choice: Map chart to display median salaries globally
+- Data Organization: Color-coded plotted points for easily comprehendable geographic trends
+- Insights Gained: Readily accessible and interactive data helps paint a clearer picture of goals
 
 
 
-
-### 
+### Formuals and Functions
 
 
 ```
