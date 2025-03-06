@@ -34,6 +34,15 @@ Background Table
 
 
 ### Charts and Graphs
+**Bar Charts**
+![Image](https://github.com/user-attachments/assets/79b1de11-1a05-4360-8de5-92d30304682b) 
+- Chart Choice: Horizontal bar chart with bolded emphasis on the selected role for improved readability. 
+- Data Organization: Sorted job titles by decending salary.  
+- Insights Gained: Senior and Engineer roles are among the higher-paying jobs. 
+
+
+
+
 
 ### 
 
