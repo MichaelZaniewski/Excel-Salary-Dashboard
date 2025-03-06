@@ -24,8 +24,15 @@ Fields include:
 - Skills
 - Platforms
 
-## Dashboard Design
-### Formuals and Functions
+## Dashboard Backbones
+### Functions and Functions
+#### Data Validation**
+
+
+
+
+
+
 
 
 Background Table
@@ -47,7 +54,6 @@ Background Table
 
 
 
-### Formuals and Functions
 
 
 ```
