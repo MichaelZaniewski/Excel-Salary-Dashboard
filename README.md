@@ -1,39 +1,41 @@
 # Excel Data Science Salary Dashboard
-! [using.gif]
-(/images/using.gif)
+![using-dashboard](https://github.com/user-attachments/assets/cd78a979-275f-4f3b-916c-2a2e51a32805)
 
 ## Introduction
 A dashboard to help guide job seekers in data-driven fields towards their career and salary goals. 
-(by filtering on various job criteria.) 
-The dashboard allows the ability to select different job titles, locations, and schedule types, and then returns their median salaries, the top platform the job was posted on, and the job posting count. The results are presented through palatable mediums like graphs, maps, and KPI cards.
 
-# Dashboard File
-jgugugu
+This dashboard allows the ability to select different job titles, locations, and schedule types, and then returns their median salaries, the top platform the job was posted on, and the job posting count. The results are presented through palatable mediums like graphs, maps, and KPI cards.
 
+### Dashboard File
+INSERT FILE HERE
 
-# Excel Skills Used:
+### Skills Used:
 - Data validation
 - Data visualization with charts
 - Functions and formulas such as XLOOKUP, COUNTIFS, MEDIAN, SORT, UNIQUE
 
 
-# Dataset
-- The dataset used for this project employs real-world job posting information from 2023, web-scraped by a third party (see acknowledgments). The collection of job postings were biased towards the United States. Fields include: 
+### Dataset
+The dataset used for this project employs real-world, web-scraped, job posting information from 2023. The collection of job postings were biased towards the United States. 
+Fields include: 
 - Job titles
 - Salaries 
 - Locations 
 - Skills
 - Platforms
 
-##Dashboard Design
-###Formuals and Functions
+## Dashboard Design
+### Formuals and Functions
+
 
 Background Table
 (INSERT PICTURE OF TABLE)
 
 
 
-###Charts and Graphs
+### Charts and Graphs
+
+### 
 
 
 ```
