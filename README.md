@@ -39,6 +39,10 @@ Background Table and Code:
 =FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0))
 ```
 Dashboard Implimentation:                            
+![Image](https://github.com/user-attachments/assets/25b0aa19-6dc1-4afc-9409-d76c7a4ba954)
+- Organization: Features a formatted bar chart bolded on selected type for readability and continuity 
+- Insight Gained:
+
 
 
 ```
