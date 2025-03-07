@@ -71,13 +71,13 @@ Dashboard Implementation:
 **Bar Graph** (INSERT TWO BAR CHARTS)                                                                            
 ![job title bar chart](https://github.com/user-attachments/assets/79b1de11-1a05-4360-8de5-92d30304682b)
 - Chart Choice: Horizontal bar chart with bolded emphasis on the selected role for improved readability. 
-- Data Organization: Sorted job titles by decending salary.  
+- Data Organization: Sorted job titles by descending salary.  
 - Insights Gained: Senior and Engineer roles are among the higher-paying jobs. 
 
 **Map Chart**                                                                          
 ![map](https://github.com/user-attachments/assets/8bfff11f-7f6e-44c4-8906-f37c9a50b2e2)
 - Chart Choice: Map chart to display median salaries globally
-- Data Organization: Color-coded plotted points for easily comprehendable geographic trends
+- Data Organization: Color-coded plotted points for easily comprehensible geographic trends
 - Insights Gained: Readily accessible and interactive data helps paint a clearer picture of goals
 
 
@@ -107,7 +107,7 @@ Job Type Count:
 - The most frequently occurring top job platform for a Business Analyst in Germany and the United Kingdom is Ai-Jobs.net.
 
 ## Future Improvements
-- A way to improve this dashboard could be to filter to remove outlying data past a certain threshold before its calculated into medians or plotted on the map. For instance, there are job postings with salary_year_avgs of upwards of 960K in the dataset with only one instance of that salary listed. While this is a great dream to have, its not necessarily in the realm of realistic. A fix for this would be to add a clause that removes values of salary_year_avg > 350,000 before aggregating. Another approach would be to eliminate jobs based on salary frequency in intervals. If there are less than 3 jobs with a salary between 950K-1M then they're removed, but if there are more than 15 jobs with salaries between 300K-350K, then they're kept. 
+- A way to improve this dashboard could be to filter to remove outlying data past a certain threshold before it's calculated into medians or plotted on the map. For instance, there are job postings with salary_year_avgs of upwards of 960K in the dataset with only one instance of that salary listed. While this is a great dream to have, it's not necessarily in the realm of realistic. A fix for this would be to add a clause that removes values of salary_year_avg > 350,000 before aggregating. Another approach would be to eliminate jobs based on salary frequency in intervals. If there are less than 3 jobs with a salary between 950K-1M then they're removed, but if there are more than 15 jobs with salaries between 300K-350K, then they're kept. 
 
 - Other improvements one could make is to pull in the salary_hour_avg or the job_skills fields so the user can view median hourly rates or input the skills they possess to further filter down and personalize results. 
 
