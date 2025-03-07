@@ -7,7 +7,7 @@ A dashboard to help guide job seekers in data-driven fields towards their career
 This dashboard allows the ability to select different job titles, locations, and schedule types, and then returns their median salaries, the top platform the job was posted on, and the job posting count. The results are presented through palatable mediums like graphs, maps, and KPI cards.
 
 ### Dashboard File
-INSERT FILE HERE
+[Excel Data Science Salary Dashboard.xlsx](https://github.com/user-attachments/files/19117658/Excel.Data.Science.Salary.Dashboard.xlsx)
 
 ### Skills Used:
 - Data validation
