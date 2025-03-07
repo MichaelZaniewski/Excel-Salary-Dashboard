@@ -111,6 +111,6 @@ Job Type Count:
 
 - Other improvements one could make is to pull in the salary_hour_avg or the job_skills fields so the user can view median hourly rates or input the skills they possess to further filter down and personalize results. 
 
-## Conclusion: 
-With this dashboard, job seekers can gain better insight into their desired careers which will help carve out a clearer path on their journeys through the vast ether of job postings. They can use this dashboard as an optimization guide, whether it be for which platform they should spend most time searching on, or for salary negotiations to earn what they deserve in relation to median data. 
+# Conclusion: 
+With this dashboard, job seekers can gain better insight into their desired careers which will help carve out a clearer path on their journeys through the vast ether of job postings. They can use this dashboard as an optimization guide, whether it be for which platform they should spend most time searching on, or for salary negotiations to earn what they deserve in relation to median data.
 
