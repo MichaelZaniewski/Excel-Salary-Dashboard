@@ -27,13 +27,31 @@ Fields include:
 ## Dashboard Backbones
 ### Functions and Functions
 #### Data Validation**
+
 ![Image](https://github.com/user-attachments/assets/90c15465-a721-4c11-a3ed-0c417c36e0ad)
 - Strategic Data Visualization: Personalize and narrow down selection with a multi-filtered list, taking into account `Job Title`, `Country`, and `Schedule Type` from the data tab.
     - User input is restricted to predefined, validated data to ensure accuracy and prevent inconsistencies
 
+#### Count of Job Schedule Type
+Background Table
+
+```
+=FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0))
+```
 
 
 
+```
+=MEDIAN(
+IF(
+    (jobs[job_title_short]=A2)*
+    (jobs[job_country]=country)*
+    (ISNUMBER(SEARCH(type,jobs[job_schedule_type])))*
+    (jobs[salary_year_avg]<>0),
+    jobs[salary_year_avg]
+)
+)
+```
 
 
 Background Table
@@ -41,23 +59,24 @@ Background Table
 
 
 
-### Charts and Graphs
-**Bar Charts** (INSERT TWO BAR CHARTS)
-![Image](https://github.com/user-attachments/assets/79b1de11-1a05-4360-8de5-92d30304682b)
+### Graphs and Charts
+**Bar Graph** (INSERT TWO BAR CHARTS)
+![job title bar chart](https://github.com/user-attachments/assets/79b1de11-1a05-4360-8de5-92d30304682b)
 - Chart Choice: Horizontal bar chart with bolded emphasis on the selected role for improved readability. 
 - Data Organization: Sorted job titles by decending salary.  
 - Insights Gained: Senior and Engineer roles are among the higher-paying jobs. 
 
 **Map Chart**
+![map](https://github.com/user-attachments/assets/8bfff11f-7f6e-44c4-8906-f37c9a50b2e2)
 - Chart Choice: Map chart to display median salaries globally
 - Data Organization: Color-coded plotted points for easily comprehendable geographic trends
 - Insights Gained: Readily accessible and interactive data helps paint a clearer picture of goals
 
 
-
-
-
-
+--- MEdian Salary xlookup
+```
+=XLOOKUP(title,$D$2:$D$11,$E$2:$E$11)
+```
 
 ## Findings:
 - Senior Data Scientists in the United States have the highest median salaries at 155K followed closely by Machine Learning Engineers and Senior Data Engineers at 150K
