@@ -43,7 +43,7 @@ Background Table and Code:
 =FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0))
 ```
 Dashboard Implementation:                            
-![Image](https://github.com/user-attachments/assets/25b0aa19-6dc1-4afc-9409-d76c7a4ba954)
+![Image](https://github.com/user-attachments/assets/8af7d00c-2bc2-44f5-a1fc-18082773b12d)
 - Organization: Features a formatted bar chart bolded on selected type for readability and continuity. 
 - Insight Gained: The majority of job postings are of full-time roles. 
 
