@@ -38,13 +38,13 @@ Background Table and Code:
 ```
 =FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0))
 ```
-Dashboard Implimentation:                            
+Dashboard Implementation:                            
 ![Image](https://github.com/user-attachments/assets/25b0aa19-6dc1-4afc-9409-d76c7a4ba954)
 - Organization: Features a formatted bar chart bolded on selected type for readability and continuity. 
 - Insight Gained: The majority of job postings are of full-time roles. 
 
 #### Median Salary by Job Title
-Background Table and Code:
+Background Table and Code:                                                                 
 ![Image](https://github.com/user-attachments/assets/144afca7-de29-47d5-a185-b8529fe735f9)
 ```
 =MEDIAN(
@@ -58,9 +58,10 @@ IF(
 )
 ```
 
-Dashboard Implimenation:
-
-
+Dashboard Implementation:                                    
+![Image](https://github.com/user-attachments/assets/b482dd82-3723-496c-9c36-12bfa74ee968)                              
+- Relative Metrics: Allows users to check selected role against others to gain a relative understanding of salaries. 
+- Multi-Criteria Filtering: Provides a detailed search for specific salary information taking into account job titles, regions, and schedule type.
 
 
 ### Graphs and Charts
