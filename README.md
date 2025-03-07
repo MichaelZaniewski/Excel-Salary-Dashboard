@@ -40,8 +40,8 @@ Background Table and Code:
 ```
 Dashboard Implimentation:                            
 ![Image](https://github.com/user-attachments/assets/25b0aa19-6dc1-4afc-9409-d76c7a4ba954)
-- Organization: Features a formatted bar chart bolded on selected type for readability and continuity 
-- Insight Gained:
+- Organization: Features a formatted bar chart bolded on selected type for readability and continuity. 
+- Insight Gained: The majority of job postings are of full-time roles. 
 
 
 
