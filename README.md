@@ -82,18 +82,18 @@ Dashboard Implementation:
 
 
 ### KPI Cards
-Median Salary:
+Median Salary:                                                                            
 ![Image](https://github.com/user-attachments/assets/545abe55-f596-4040-8a0e-a0b7b1fe78c7)
 ```
 =XLOOKUP(title,$D$2:$D$11,$E$2:$E$11)
 ```
 
-Job Type Count:
+Job Type Count:                                                                          
 ![Image](https://github.com/user-attachments/assets/8f03aa51-0933-49a9-bceb-eb67bdc988da)
 ```
 =XLOOKUP(title,$D$2:$D$11,$E$2:$E$11)
 ```
-Dashboard Implementation: (See Job Sched Type and Median Salary Implementation Photos Above)
+(For implementation, see Count of Job Schedule Type and Median Salary by Job Title implementation Photos above)
 
 
 
