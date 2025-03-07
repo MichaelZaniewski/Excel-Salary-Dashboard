@@ -45,7 +45,7 @@ Dashboard Implimentation:
 
 #### Median Salary by Job Title
 Background Table and Code:
-
+![Image](https://github.com/user-attachments/assets/144afca7-de29-47d5-a185-b8529fe735f9)
 ```
 =MEDIAN(
 IF(
@@ -58,9 +58,8 @@ IF(
 )
 ```
 
+Dashboard Implimenation:
 
-Background Table
-(INSERT PICTURE OF TABLE)
 
 
 
