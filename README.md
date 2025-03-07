@@ -24,13 +24,17 @@ Fields include:
 - Skills
 - Platforms
 
+
 ## Dashboard Backbones
+
 ### Functions and Formulas
+
 #### Data Validation**
 
 ![Image](https://github.com/user-attachments/assets/90c15465-a721-4c11-a3ed-0c417c36e0ad)
 - Strategic Data Visualization: Personalize and narrow down selection with a multi-filtered list, taking into account `Job Title`, `Country`, and `Schedule Type` from the data tab.
     - User input is restricted to predefined, validated data to ensure accuracy and prevent inconsistencies
+
 
 #### Count of Job Schedule Type
 Background Table and Code:                                                                                                                                                       
@@ -57,7 +61,6 @@ IF(
 )
 )
 ```
-
 Dashboard Implementation:                                    
 ![Image](https://github.com/user-attachments/assets/b482dd82-3723-496c-9c36-12bfa74ee968)                              
 - Relative Metrics: Allows users to check selected role against others to gain a relative understanding of salaries. 
@@ -77,11 +80,23 @@ Dashboard Implementation:
 - Data Organization: Color-coded plotted points for easily comprehendable geographic trends
 - Insights Gained: Readily accessible and interactive data helps paint a clearer picture of goals
 
+
 ### KPI Cards
-Median Salary XLOOKUP
+Median Salary:
+![Image](https://github.com/user-attachments/assets/545abe55-f596-4040-8a0e-a0b7b1fe78c7)
 ```
 =XLOOKUP(title,$D$2:$D$11,$E$2:$E$11)
 ```
+
+Job Type Count:
+
+
+Dashboard Implementation: (See Job Sched Type and Median Salary Implementation Photos Above)
+
+
+
+
+
 
 
 ## Findings:
