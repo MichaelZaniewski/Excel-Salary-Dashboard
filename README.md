@@ -25,7 +25,7 @@ Fields include:
 - Platforms
 
 ## Dashboard Backbones
-### Functions and Functions
+### Functions and Formulas
 #### Data Validation**
 
 ![Image](https://github.com/user-attachments/assets/90c15465-a721-4c11-a3ed-0c417c36e0ad)
@@ -65,23 +65,24 @@ Dashboard Implementation:
 
 
 ### Graphs and Charts
-**Bar Graph** (INSERT TWO BAR CHARTS)
+**Bar Graph** (INSERT TWO BAR CHARTS)                                                                            
 ![job title bar chart](https://github.com/user-attachments/assets/79b1de11-1a05-4360-8de5-92d30304682b)
 - Chart Choice: Horizontal bar chart with bolded emphasis on the selected role for improved readability. 
 - Data Organization: Sorted job titles by decending salary.  
 - Insights Gained: Senior and Engineer roles are among the higher-paying jobs. 
 
-**Map Chart**
+**Map Chart**                                                                          
 ![map](https://github.com/user-attachments/assets/8bfff11f-7f6e-44c4-8906-f37c9a50b2e2)
 - Chart Choice: Map chart to display median salaries globally
 - Data Organization: Color-coded plotted points for easily comprehendable geographic trends
 - Insights Gained: Readily accessible and interactive data helps paint a clearer picture of goals
 
-
---- MEdian Salary xlookup
+### KPI Cards
+Median Salary XLOOKUP
 ```
 =XLOOKUP(title,$D$2:$D$11,$E$2:$E$11)
 ```
+
 
 ## Findings:
 - Senior Data Scientists in the United States have the highest median salaries at 155K followed closely by Machine Learning Engineers and Senior Data Engineers at 150K
