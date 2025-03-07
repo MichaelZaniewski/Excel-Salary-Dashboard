@@ -1,5 +1,5 @@
 # Excel Data Science Salary Dashboard
-![using-dashboard](https://github.com/user-attachments/assets/cd78a979-275f-4f3b-916c-2a2e51a32805)
+![Image](https://github.com/user-attachments/assets/2c59bedd-0430-4285-9f6e-0bc0d2bad7fd)
 
 ## Introduction
 A dashboard to help guide job seekers in data-driven fields towards their career and salary goals. 
