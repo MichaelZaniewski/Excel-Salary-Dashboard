@@ -43,7 +43,8 @@ Dashboard Implimentation:
 - Organization: Features a formatted bar chart bolded on selected type for readability and continuity. 
 - Insight Gained: The majority of job postings are of full-time roles. 
 
-
+#### Median Salary by Job Title
+Background Table and Code:
 
 ```
 =MEDIAN(
