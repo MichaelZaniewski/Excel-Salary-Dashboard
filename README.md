@@ -33,8 +33,8 @@ Fields include:
     - User input is restricted to predefined, validated data to ensure accuracy and prevent inconsistencies
 
 #### Count of Job Schedule Type
-Background Table
-
+Background Table and Code                                                                                                                                                       
+![Image](https://github.com/user-attachments/assets/64f95611-7231-4e62-8b96-c79572d80dba)
 ```
 =FILTER(J2#,(NOT(ISNUMBER(SEARCH("and",J2#))+ISNUMBER(SEARCH(",",J2#))))*(J2#<>0))
 ```
