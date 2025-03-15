@@ -89,7 +89,7 @@ Median Salary:
 ```
 
 Job Type Count:                                                                          
-![Image](https://github.com/user-attachments/assets/8f03aa51-0933-49a9-bceb-eb67bdc988da)
+![Image](https://github.com/user-attachments/assets/3c0bd7ad-c232-4514-a8a7-fa2e6c7d4e8f)
 ```
 =XLOOKUP(title,$D$2:$D$11,$E$2:$E$11)
 ```
