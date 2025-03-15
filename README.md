@@ -91,9 +91,9 @@ Median Salary:
 Job Type Count:                                                                          
 ![Image](https://github.com/user-attachments/assets/3c0bd7ad-c232-4514-a8a7-fa2e6c7d4e8f)
 ```
-=XLOOKUP(title,$D$2:$D$11,$E$2:$E$11)
+=XLOOKUP(title,$C$2:$C$11,$D$2:$D$11,"No Results")
 ```
-(For implementation, see Count of Job Schedule Type and Median Salary by Job Title implementation Photos above)
+(For implementation, see Count of Job Schedule Type and Median Salary by Job Title implementation photos above)
 
 
 
