@@ -102,7 +102,7 @@ Job Type Count:
 
 
 ## Findings:
-- Senior Data Scientists in the United States have the highest median salaries at 155K followed closely by Machine Learning Engineers and Senior Data Engineers at 150K
+- Senior Data Scientists in the United States have the highest median salaries at 155K followed closely by Machine Learning Engineers and Senior Data Engineers at 150K.
 - Most job titles in the United States have the highest job type count when the schedule is "full time," meaning, applicants have a higher likelihood of landing a job quicker if they are searching for full time positions. 
 - The most frequently occurring top job platform for a Business Analyst in Germany and the United Kingdom is Ai-Jobs.net.
 
